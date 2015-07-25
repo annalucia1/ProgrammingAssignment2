@@ -1,6 +1,6 @@
 #This is the code for assignment 2
 #There are two functions in this assignment:makeCacheMatrix and 
-#cacheinverse 
+#cacheSolve 
 #The basic idea of this a pair of functions is to cache the inverse
 #Of a matrix.
 
@@ -25,11 +25,11 @@ makeCacheMatrix <- function(x = matrix()){
         getinv = getinv)
 }
 
-#cacheinverse calculated the inverse matrix
+#cacheSolve calculated the inverse matrix
 #if a inverse has already been calculated,return it directly
 #Otherwise,calculate the inverse matrix
 
-cacheinverse <- function(x, ...) {
+cacheSolve <- function(x, ...) {
         inv <- x$getinv()
         #if a inverse has already been calculated,return it directly
         if(!is.null(inv)) {
