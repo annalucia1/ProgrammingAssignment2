@@ -1,6 +1,7 @@
+This is my repository contributing to the R Programming
 ### Introduction
 
-This second programming assignment will require you to write an R
+This work requires you to write an R
 function that is able to cache potentially time-consuming computations.
 For example, taking the mean of a numeric vector is typically a fast
 operation. However, for a very long vector, it may take too long to
